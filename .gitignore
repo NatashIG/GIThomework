@@ -1,0 +1,5 @@
+*.log
+desktop.ini
+*.db
+target/
+bin/
