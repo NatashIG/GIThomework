@@ -1,0 +1,69 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Cal Suite" parallel="methods" thread-count="2">
+    <test name="Cos Cal Test">
+        <groups>
+            <run>
+                <exclude name="cos operation"/>
+            </run>
+        </groups>
+        <classes>
+          <class name="com.epam.cdp.testng.CosCalTest"/>
+        </classes>
+    </test>
+    <test name="Ctg Cal Test">
+        <classes>
+            <class name="com.epam.cdp.testng.CtgCalTest"/>
+        </classes>
+    </test>
+    <test name="Div Cal Test">
+        <classes>
+            <class name="com.epam.cdp.testng.DivCalTest"/>
+        </classes>
+    </test>
+    <test name="Is Negative Cal Test">
+        <classes>
+            <class name="com.epam.cdp.testng.IsNegativeCalTest"/>
+        </classes>
+    </test>
+    <test name="Is Positive Cal Test">
+        <classes>
+            <class name="com.epam.cdp.testng.IsPositiveCalTest"/>
+        </classes>
+    </test>
+    <test name="Mult Cal Test">
+        <classes>
+            <class name="com.epam.cdp.testng.MultCalTest"/>
+        </classes>
+    </test>
+    <test name="Pow Cal Test">
+        <classes>
+            <class name="com.epam.cdp.testng.PowCalTest"/>
+        </classes>
+    </test>
+    <test name="Sin Cal Test">
+        <classes>
+            <class name="com.epam.cdp.testng.SinCalTest"/>
+        </classes>
+    </test>
+    <test name="Sqrt Cal Test">
+        <classes>
+            <class name="com.epam.cdp.testng.SqrtCalTest"/>
+        </classes>
+    </test>
+    <test name="Sub Cal Test">
+        <classes>
+            <class name="com.epam.cdp.testng.SubCalTest"/>
+        </classes>
+    </test>
+    <test name="Sum Cal Test">
+        <classes>
+            <class name="com.epam.cdp.testng.SumCalTest"/>
+        </classes>
+    </test>
+    <test name="Tg Cal Test">
+        <classes>
+            <class name="com.epam.cdp.testng.TgCalTest"/>
+        </classes>
+    </test>
+</suite>
+
